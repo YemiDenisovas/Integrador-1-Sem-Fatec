@@ -1,0 +1,267 @@
+@charset="utf8";
+body {
+    font-size-adjust: 100%;
+    margin: auto;
+    padding: 0;
+    width: 960px;
+    height: 1200px;
+}
+.logo {
+    float: left;
+    width: 127px;
+    height: 99px;
+}
+header h1 {
+    text-align: center;
+    position: relative;
+    top: 50px
+}
+header {
+    width: 960px;
+}
+.menu {
+    font-family: sans-serif;
+    font-size: 1em;
+    display: block;
+    position: relative;
+    top: 100px;
+}
+.menu a {
+    margin: 15px;
+}
+.menu ol li a {
+    text-decoration: none;
+}
+.menu ol li a:hover {
+    color: black;
+}
+footer {
+    width: 100%;
+    height: 150px;
+    padding: 180px 0px 0px 0px;
+    clear: both;
+}
+.logofooter {
+    width: 127px;
+    height: 99px;
+}
+
+/* Conteudo origem */
+.titulo_um {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 1.8em;
+}
+.page_um {
+    width: 960px;
+    height: 430px;
+    position: relative;
+    top: 120px;
+    margin: auto;
+}
+.texto {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.5em;
+    font-family: serif;
+    position: relative;
+    top: 40px;
+    padding: 10px 10px 20px 10px;
+}
+
+/*Conteudo Oque é  */
+.oque {
+    height: 230px;
+    width: 960px;
+    position: absolute;
+    top: 220px;
+}
+.img_um{
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    position:relative;
+    float:left;
+ margin: 10px 28px 10px 12px;
+}
+.img_dois{
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    float: left;
+     margin: 10px 28px 10px 0px;
+}
+.img_tres{
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    float: left;
+     margin: 10px 28px 10px 0px;
+}
+.img_quatro{
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px 28px 10px 12px;
+}
+
+.titulo_oque {
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    font-size:1.8em;
+    position: relative;
+    padding: 4px;
+}
+.desc_oque p {  
+    width: 960px;
+    height: 500px;
+    position:relative;
+    top: 200px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.5em;
+    padding: 10px 10px 10px 10px; 
+}
+
+/* conteudo competiçoes */
+.desc_compet {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+.tit_mund {
+    text-align: center;
+    font-size: 1.8em;
+}
+.mundial {
+    padding: 0px 10px 10px 10px;
+    top: 10px;
+    position: relative;
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+}
+.tit_aberto {
+    text-align: center;
+    font-size: 40px
+}
+.aberto {
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    float: right;
+    top: 30px;
+    text-align: justify;
+    font-size: 25px;
+}
+.tit_nacional {
+    text-align: center;
+    font-size: 40px
+}
+.nacional {
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    float: right;
+    top: 30px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+/* MODALIDADES*/
+.moda {
+    margin-top: 150px;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    float: right;
+    text-align: justify;
+    font-size: 25px;
+}
+
+/* HIGLINE */
+.high {
+    margin-top: 150px;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    float: right;
+    text-align: justify;
+    font-size: 25px;
+}
+.texto_high {
+    width: 100%;
+    height: 400px;
+    padding: 0px 100px 10px 10px;
+    position: relative;
+    text-align: justify;
+    font-size: 25px;
+}
+.fhigh_quatro {
+    width: 148px;
+    position: relative;
+    margin-top: 190px;
+    float: right;
+}
+
+/* WATERLINE */
+.water {
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    text-align: justify;
+    font-size: 25px;
+}
+.texto_water {
+    width: 100%;
+    height: 400px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    text-align: justify;
+    font-size: 25px;
+}
+
+/* LONGLINE*/
+.long {
+    margin-top: 150px;
+    width: 100%;
+    height: 430px;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    text-align: justify;
+    font-size: 25px;
+}
+.fotos_long {
+    height: auto;
+    width: auto;
+    margin-top: 160px;
+}
+
+/* Meio Ambiente*/
+.meioamb {
+    padding: 0px 10px 10px 10px;
+    top: 110px;
+    position: relative;
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+}
+.fotos_ma {
+    height: auto;
+    width: auto;
+    margin-top: 500px;
+}
+
+/*PRATIQUE*/
+.pratique {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
